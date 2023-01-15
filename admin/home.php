@@ -3,7 +3,7 @@
   include('parts/head.php');
   include('parts/header.php');
 
-
+//  menus active kawal de home double click ki masla da aw div ki masla da
 ?>  
 
 <div class="d-flex align-items-stretch">
@@ -19,8 +19,7 @@
       </div>
       <!-- Sidebar Navidation Menus--><span class="heading">Main</span>
       <ul class="list-unstyled sidebar_menu">
-              <li class="active" >
-                <a id='home' href="home.php"> <i class="icon-padnote"></i>Home</a></li>
+              <li class="active" ><a id='home' href="home.php"> <i class="icon-padnote"></i>Home</a></li>
               <li ><a href="donation.php"> <i class="icon-home"></i>Donations </a></li>
               <li><a href="membership.php"> <i class="icon-grid"></i>Membership </a></li>
               <li ><a href="update_web_info.php"> <i class="fa fa-bar-chart"></i>Update Web info </a></li>
@@ -91,7 +90,6 @@
 </table>
 </div>
 </div>  
-<!-- style="height:60px; width:70px"  -->
 <?php
 
 include('parts/footer.php');
