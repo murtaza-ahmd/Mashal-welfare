@@ -19,10 +19,10 @@
         </div>
         <!-- Sidebar Navidation Menus--><span class="heading">Main</span>
         <ul class="list-unstyled">
+                <li><a href="home.php"> <i class="icon-padnote"></i>Home</a></li>
                 <li><a href="donation.php"> <i class="icon-home"></i>Donations </a></li>
                 <li><a href="membership.php"> <i class="icon-grid"></i>Membership </a></li>
                 <li ><a href="update_web_info.php"> <i class="fa fa-bar-chart"></i>Update Web info</a></li>
-                <li><a href="home.php"> <i class="icon-padnote"></i>Home</a></li>
                 <li class="active"><a href="gallery.php"> <i class="icon-padnote"></i>update Gallery </a></li>
                 <li><a href="become_a_member_page.php"> <i class="icon-padnote"></i>Become a member</a></li>
                 <li><a href="about.php"> <i class="icon-padnote"></i>About</a></li>
