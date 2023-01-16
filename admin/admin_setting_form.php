@@ -1,21 +1,9 @@
 <?php
-  // include('./partials/db.php');
-  include('parts/head.php');
-  // include('parts/header.php');
+include('parts/addb.php');
 
 
 ?>  
-    <div class="d-flex align-items-stretch">
-      <!-- Sidebar Navigation-->
 
-      <!-- Sidebar Navigation end-->
-      <div class="page-content">
-        <!-- Page Header-->
-      
-        <!-- Breadcrumb-->
-        <div class="container-fluid">
-          
-        </div>
         <section class="no-padding-top">
           <div class="container-fluid">
             <div class="row">
@@ -182,9 +170,3 @@
             </div>
           </div>
         </section>
-<?php
-
-// include('parts/footer.php');
-
-?>
-   
