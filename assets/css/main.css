@@ -94,7 +94,7 @@ section {
   margin: 0;
   font-size: 48px;
   font-weight: 400;
-  font-family: var(--font-primary);
+  /* font-family: var(--font-primary); */
 }
 
 .section-header p span {
@@ -1556,7 +1556,7 @@ section {
   font-weight: 700;
   margin-bottom: 20px;
   color: var(--color-secondary);
-  font-family: var(--font-primary);
+  /* font-family: var(--font-primary); */
 }
 
 .hero h2 span {
