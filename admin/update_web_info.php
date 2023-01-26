@@ -4,14 +4,14 @@ include('parts/addb.php');
 
 
 
-?>
+?> 
 <!-- Page Header-->
 <div class="page-header no-margin-bottom">
   <div class="container-fluid">
     <h2 class="h5 no-margin-bottom">Donations</h2>
   </div>
 </div>
-<!-- Breadcrumb-->
+<!-- Breadcrumb -->
 <div class="container-fluid">
   <ul class="breadcrumb">
     <li class="breadcrumb-item"><a href="/mashal/admin/#update_web_info">Home</a></li>
@@ -65,7 +65,7 @@ include('parts/addb.php');
                     <td><?php echo $donate; ?></td>
 
                     <!-- <td><a href="delete_list.php?info=<?php echo $uid; ?>" class="btn btn-info" role="button">Delete</a></td> -->
-                    <td><a href="menu_edite.php?info=<?php echo $id; ?>" class="btn btn-info" role="button">Edite</a></td>
+                    <td><a href="update_menu_edite.php?info=<?php echo $id; ?>" class="btn btn-info" role="button">Edite</a></td>
 
 
 

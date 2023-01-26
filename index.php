@@ -133,7 +133,7 @@
     </div>
   </div>
 </div>
-          <!-- overview start -->
+          <!-- overview ends -->
 <?php
   include('partials/footer.php');
 ?>
