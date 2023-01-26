@@ -9,6 +9,7 @@ include('parts/head.php');
 <div class="page-header no-margin-bottom">
   <div class="container-fluid">
     <h2 class="h5 no-margin-bottom">Contact Me</h2>
+    <h3>contact paage ki edite pate dy rta</h3>
   </div>
 </div>
 <!-- Breadcrumb-->
