@@ -1,5 +1,7 @@
 <?php
 include('parts/addb.php');
+// include ('parts/head.php');
+// include ('parts/header.php');
 
 
 ?>
@@ -42,7 +44,7 @@ include('parts/addb.php');
         $image2 = $row['aboutimage2'];
         $image3 = $row['aboutimage3'];
         $image4 = $row['aboutimage4'];
-
+ 
         $count++;
       ?>
         <tr>
@@ -65,3 +67,6 @@ include('parts/addb.php');
   </table>
 </div>
 </div>
+<?php 
+  // include('parts/footer.php');
+?>

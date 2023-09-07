@@ -45,7 +45,7 @@ include('parts/head.php');
         $email = $row['email'];
         $name = $row['name'];
         $service = $row['opening'];
-
+ 
 
         $count++;
       ?>

@@ -108,7 +108,8 @@ $data = mysqli_query($connect,"select * from about where id='$userid'");
             
                     $upload = mysqli_query($connect,"update about set aboutname='$name',abouttitle='$title',aboutdesc='$des',image1='$imgname1',image2='$imgname2',image3='$imgname3',image4='$imgname4' where id='$userid'");
                     echo "Image Record Has been Updated";
-                    header('location:about.php') ;  
+                    header('location:about.php') ; 
+                    exit;
                 }
                 else
                 {
@@ -122,9 +123,9 @@ $data = mysqli_query($connect,"select * from about where id='$userid'");
 
                 $upload=mysqli_query($connect,"update about set aboutname='$name',abouttitle='$title',aboutdesc='$des' where id='$userid'");
                 echo "Text Record Has been Updated";
-
                 echo "IMage not selected";
                 header('location:about.php');
+                exit;
                 
                 
             }
